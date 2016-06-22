@@ -1,6 +1,48 @@
+/*css nav du haut*/
+.titre{
+	font-weight: bold;
+}
+#navbar{
+	background-color: black;
+}
+#navbar ul li a{
+	color: white;
+	font-size: 11px;
+}
+#navbar ul li a:hover{
+	background-color: green;
+}
+#navbar a{
+	color: white;
+}
+
+.faaa{
+	padding-top: 20px;
+	margin-left: 13px;
+	color:white;
+
+}
+.seach{
+	background-color: green;
+	border: none;
+	height: 56px;
+	width: 50px;
+	border-radius:0px;
+}
+
+/*.faaa:hover{
+	background-color: green;
+
+}*/
+/*css sidenav*/
 
 .sidenav {
 	background-color: black;
+	
+}
+.sidenav h5,ul li a{
+	
+
 }
 .sidenav ul li a{
 	color: white;
@@ -11,41 +53,40 @@
 	background-color: green;	
 	
 }
-.active{
-	background-color: green;
-}
-.navbar-brand{
-	
-	color: white;
-	
-}
-img{
-	width: 250px;
-	height: 250px;
-}
-.photo{
-	background-color: black;
-}
-.photo4{
-	width: 200px;
-	height: 200px;
-}
-
-#navbar ul li a{
-	color: white;
-}
-#navbar ul li a:hover{
-	background-color: green;
-}
-#navbar a{
-	color: white;
-}
 .faa{
 	float: right;
 }
-.faaa{
-	padding-top: 20px;
+
+.photo4{
+	width: 162px;
+	height: 168px;
 }
+
+.recherche{
+background-color:rgb(26,26,26);
+font-size: 12px;
+margin-top: 25px;
+margin-bottom: 20px;
+height: 20px;
+border-bottom: 0.5px solid white;
+}
+/*css bloc image*/
+.image{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+img{
+	width: 300px;
+	height: 200px;
+}
+.photo{
+	background-color: black;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
 .row{
 	margin-top: 50px;
 }
@@ -53,19 +94,11 @@ h5{
 	font-weight: normal;
 	font-size: 12px;
 }
-.recherche{
-background-color: black;
-font-size: 12px;
-margin-top: 25px;
-margin-bottom: 20px;
-}
-.seach{
-	background-color: green;
-	border: none;
-}
+
 
 .side3{
 	color: black;
+	padding-top: 60px;
 	
 }
 .trait {
@@ -86,12 +119,12 @@ iframe{
 }
 footer{
 background-color: black;
-height: 50px;
+height: 60px;
 padding-top: 10px;
 }
 
 .sousTitre{
-	font-size: 15px;
+	font-size: 14px;
 	color: white;
 }
 a{
@@ -115,10 +148,7 @@ a:hover{
 	color:white;
 	margin-top: 40px;
 }
-.personne{
-	font-size: 12px;
-	color: white;
-}
+
 .fin{
 	margin-top: 50px;
 	color: white;
@@ -127,4 +157,17 @@ a:hover{
 }
 .lienFIN{
 	color: white;
+}
+
+.photo p{
+	font-size: 12px;
+}
+.col-md-7 p{
+
+	margin-left: 100px;
+	margin-right: 100px;
+}
+iframe{
+	width:500px; 
+	height:280px;
 }
