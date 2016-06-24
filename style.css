@@ -1,0 +1,179 @@
+*{
+border-box: box-sizing
+font-family: 'Lato', sans-serif;
+}
+
+.sidenav {
+	background-color: black;
+}
+.sidenav ul li a{
+	color: white;
+	font-size: 12px;
+
+}
+.sidenav ul li a:hover{
+	background-color: green;	
+	
+}
+.active{
+	background-color: #24890d;
+}
+.navbar-brand{
+	color: white;
+	font-weight: 400;	
+}
+
+img{
+	width: 250px;
+	height: 250px;
+}
+.photo{
+	background-color: black;
+}
+.photo4{
+	width: 200px;
+	height: 200px;
+}
+
+#navbar ul li a{
+	color: white;
+	font-size: 10px;
+}
+#navbar ul li a:hover{
+	background-color: green;
+}
+
+#navbar a{
+	color: white;
+}
+
+.faaa{
+
+	padding: 18px 15px;
+	color: white;
+	
+}
+
+#myNavbar i:hover{
+	background-color: green;
+}
+
+.faa{
+	padding: 18px 15px 18px 15px;
+	color: white;
+
+}
+
+@media screen and (max-width: 767px){
+
+#navbar ul li a{
+	color: green;
+	font-size: 100%;
+	border-top: 1px solid;
+}
+
+#navbar ul li a:hover{
+	background: none;	
+}
+
+#myNavbar i:hover{
+	background: none;
+}
+.faaa{
+	border-top: 1px solid;
+}
+
+.navbar-brand {
+	padding: 10px 36px;
+
+}
+}
+
+.search{
+	background-color: ;
+	border: none;
+}
+.row{
+	margin-top: 50px;
+}
+
+h5{
+	font-weight: normal;
+	font-size: 12px;
+}
+.recherche{
+background-color: black;
+font-size: 12px;
+margin-top: 25px;
+margin-bottom: 20px;
+}
+
+
+
+.side3{
+	color: black;
+	
+}
+.trait {
+	background-color:gray; 
+	height:1px;
+	border: none;
+	}
+.grosTrait{
+	background-color:black; 
+	height:5px;
+	border: none;
+
+}
+iframe{
+	margin-bottom:24px;
+	margin-left: 100px;
+	margin-top: 24px;
+}
+footer{
+background-color: black;
+height: 50px;
+padding-top: 10px;
+}
+
+.sousTitre{
+	font-size: 15px;
+	color: white;
+}
+a{
+	color: green;
+}
+a:hover{
+	color: green;
+}
+.release{
+	color: white;
+	font-size: 12px;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+.date{
+	font-style: italic;
+	font-size: 12px;
+	color: white;
+	padding-top: 15px;
+}.remerciement{
+	color:white;
+	margin-top: 40px;
+}
+.personne{
+	font-size: 12px;
+	color: white;
+}
+.fin{
+	margin-top: 50px;
+	color: white;
+	font-size: 12px;
+	margin-bottom: 100px;
+}
+.lienFIN{
+	color: white;
+}
+.sidenav{
+	padding-left: 30px;
+}
