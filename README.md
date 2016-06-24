@@ -1,4 +1,4 @@
-Exercice 5 : audiotheme
+Exercice 5 : audiotheme-
 
 A rendre avant le 28 juin.
 
