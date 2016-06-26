@@ -1,5 +1,12 @@
 *{
-	font-family: 'lato'
+	font-family: 'lato';
+}
+a{
+	color: green;
+}
+a:hover{
+	color: green;
+	text-decoration: none;
 }
 /*css nav du haut*/
 .titre{
@@ -21,7 +28,6 @@
 
 .faaa{
 	padding: 20px 12px;
-	color:white;
    
 }
 .seach{
@@ -34,7 +40,9 @@
 #navbar i:hover{
  	background-color: green;
  }
-
+.seach:hover{
+	background-color: green;
+}
 /*.faaa:hover{
 	background-color: green;
 
@@ -50,38 +58,40 @@
 	width: 100%;
 	height: 200px;
 }
+
+.image img:hover{
+	opacity:0.9;
+}
 .photo{
 	background-color: black;
 	padding-left: 0px;
 	padding-right: 0px;
-	height: 320px;
-
-}
-.sousTitre{
-	font-size: 13px;
-	color: white;
-	padding-left: 12px;
-}
-.photo p{
-	font-size: 16px;
-	color: white;
-   padding-left: 12px;
-
+	height: 310px;
 }
 
-/*css du bloc col-lg-7*/
+.photo a{
+	font-size: 15px;
+	color: white; 
+	padding-left: 20px;
+}
+.photo .nom a{
+	font-size: 18px;
+}
+.photo a:hover{
+	color:green;
+}
+/*css du bloc col-lg-8*/
 .video h2{
     margin-top: 40px;
 	font-weight: normal;
-	font-size: 40px;
-
+	font-size: 50px;
+    margin-left: 12%;
 }
 
 .video p{
-
-	margin-left: 100px;
+	margin-left: 12%;
 	margin-right: 100px;
-	font-size: 15px;
+	font-size: 17px;
 	margin-top: 30px;
 }
 .video a{
@@ -89,29 +99,27 @@
 	text-decoration: underline;
 }
 iframe{
-	width:600px; 
-	height:350px;
 	margin-bottom:24px;
-	margin-left: 100px;
+	margin-left: 12%;
 	margin-top: 24px;
+	width:70%;
+	height:280px;
 }
 
-/*css du bloc col-lg-3*/
+/*css du bloc col-lg-4*/
 .side3{
-	color: black;
 	padding-top: 60px;
-	height: 100%;
-	
+	padding-right: 40px;	
 }
 .side3 h3{
 	font-weight: bold;
 	font-size: 17px;
-	margin-top: 0px;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 .paragraphe{
 	font-size: 12px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 20px;
 	font-style: italic;
 }
 .trait {
@@ -123,9 +131,7 @@ iframe{
 	background-color:black; 
 	height:5px;
 	border: none;
-
 }
-
 
 /*css sidenav*/
 
@@ -137,16 +143,18 @@ iframe{
 }
 .sidenav ul li a{
 	border-top: 1px solid gray;
-
-}
-.sidenav ul li a{
-	color: white;
+	text-transform: uppercase;
 	font-size: 12px;
 
 }
+
 .sidenav ul li a:hover{
 	background-color: green;	
-	
+	color: white;
+}
+.sidenav ul  .vert{
+	background-color: green;
+
 }
 .faa{
 	float: right;
@@ -154,7 +162,10 @@ iframe{
 
 .photo4{
 	width: 80%;
-	height: 180px;
+	height: 190px;
+}
+.photo4:hover{
+	opacity: 0.8;
 }
 
 .recherche{
@@ -164,13 +175,14 @@ margin-top: 25px;
 margin-bottom: 20px;
 height: 20px;
 border-bottom: 0.5px solid white;
+color: white;
 }
 h5{
 	font-weight: normal;
 	font-size: 12px;
 }
 .listen{
-	color: white;
+	
 	font-size: 13px;
 }
 .date{
@@ -193,9 +205,11 @@ h5{
 	padding-top: 40px;
 	padding-bottom: 15px;
 }
-.lienFIN{
-	color: white;
+.sidenav a:hover{
+	color: green;
+
 }
+
 
 .fin{
 	margin-top: 50px;
@@ -208,21 +222,15 @@ h5{
 /*css du footer*/
 footer{
 background-color: black;
-height: 70px;
+height: 60px;
 padding: 20px 0 0 10px;
-
-
+}
+footer a{
+	color:white;
 }
 
 
 
-a{
-	color: green;
-}
-a:hover{
-	color: green;
-	text-decoration: none;
-}
 
 @media screen and (max-width: 767px){
 
@@ -240,20 +248,37 @@ a:hover{
 	background: none;
 }
 .faaa{
-	border-top: 1px solid;
+	border-top: 1px solid gray;
+	width: 100%;
 }
 
 .navbar-brand {
 	padding: 10px 36px;
 
 }
-
+.recherche{
+width:  100%;
 
 }
 
+}
 
+@media all and (min-width: 768px) and (max-width: 1100px){
+.recherche{
+width:  100%;
 
+}
+.photo4{
+	width: 65%;
+	height: 320px;
+}
 
+}
+/*
+.roww{
+	background-color: black;
+	padding-left: 10px;
+}
 
 
 
