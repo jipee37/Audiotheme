@@ -268,15 +268,7 @@ width:  100%;
 	margin-left: 3%;
 	
 }
-.video h2 {
-	margin-left: 3%;	
-}
-.side3{
-	margin-left: 3%;
-}
-.image{
-	margin-top: 30px;
-}
+
 }
 
 @media all and (min-width: 768px) and (max-width: 1100px){
@@ -287,17 +279,6 @@ width:  100%;
 .photo4{
 	width: 65%;
 	height: 320px;
-}
-.video p, iframe{
-	margin-left: 5%;
-	
-}
-.video h2 {
-	margin-left: 5%;
-	
-}
-.side3{
-	margin-left: 5%;
 }
 
 }
